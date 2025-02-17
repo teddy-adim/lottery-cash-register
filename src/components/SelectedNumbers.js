@@ -10,8 +10,13 @@ const SelectedNumbers = ({ selectedNumbers,money }) => {
   return (
     <div className="selected-numbers">
       <h2>Selected Numbers</h2>
-      <p>{displayNumber()}</p>
-      <h2>Total Money: ${money}</h2>
+          <ul>
+            {selectedNumbers.length > 0 ? (
+              selectedNumbers.map((num, index) => <li key={index}>Mark:{num}</li>)) : (
+              <li>No numbers selected</li>
+            )}
+          </ul>
+          <h2>Total Money: ${money}</h2>
     </div>
   );
 };

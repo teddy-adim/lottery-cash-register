@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="app">
       <div className="main-content">
-        <h1>Lottery Cash Register</h1>
+        <h1>WHE WHE on D'Avenue</h1>
         <NumberSelector selectedNumbers={selectedNumbers} setSelectedNumbers={setSelectedNumbers} />
         <MoneySelector money={money} setMoney={setMoney} selectedNumbers={selectedNumbers} />
         <Controls 
