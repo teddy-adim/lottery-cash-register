@@ -10,7 +10,7 @@ body {
 /* App Layout */
 .app {
   display: flex;
-  justify-content: space-between; /* Pushes elements to the left and right */
+  justify-content: space-between; 
   align-items: flex-start;
   max-width: 1100px;
   margin: 30px auto;
@@ -103,7 +103,7 @@ button.selected {
   background: radial-gradient(circle, #0045a5, #3b86ff);
 }
 
-/* Controls (Cash and Clear Buttons) */
+
 .controls {
   margin-top: 15px;
 }
@@ -125,7 +125,7 @@ button.selected {
   background: linear-gradient(to bottom, #e0ac00, gold);
 }
 
-/* Moves Selected Numbers Section to the Right */
+
 .selected-numbers {
   width: 250px;
   height: 300px;
@@ -143,16 +143,15 @@ button.selected {
   transform: translateY(-50%);
 }
 
-/* Makes selected numbers appear vertically */
+
 .selected-numbers p {
   display: flex;
   flex-direction: column;
-  gap: 5px; /* Adds spacing between numbers */
+  gap: 5px; 
 }
 
 /* Cash Output Display */
-/* Position the cash output at the bottom */
-/* Ensure cash-output stays at the bottom naturally */
+
 .cash-output {
   margin-top: auto; /* Pushes it to the bottom */
   width: 100%;
